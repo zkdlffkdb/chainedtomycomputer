@@ -5,15 +5,15 @@ Our solution is a game which brings the player through a story with the goal of 
 
 ## Storyline
 ### Main character
-Name: Xiao Ming
-Occupation: University Student
-Age: 24
-Background: His family was scammed out of their life savings, hence Xiao Ming now has a personal vendetta against fraudsters, and is very paranoid against potential scams. 
+Name: Xiao Ming  
+Occupation: University Student  
+Age: 24  
+Background: His family was scammed out of their life savings, hence Xiao Ming now has a personal vendetta against fraudsters, and is very paranoid against potential scams.  
 
 ### Supporting Character:
-Name: Ah Beng (Xiao Ming's Friend)
-Name: Ahmad (Xiao Ming's Friend 2)
-Name: Ah Long (Xiao Ming's Friend 3) 
+Name: Ah Beng (Xiao Ming's Friend)  
+Name: Ahmad (Xiao Ming's Friend 2)  
+Name: Ah Long (Xiao Ming's Friend 3)  
 
 ### Basic storyline: 
 Prologue: XM’s profile + background (paranoid about scams)
