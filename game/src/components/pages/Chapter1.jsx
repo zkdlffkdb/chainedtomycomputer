@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import "./Chapter1.css";
+
 import ahbeng from "../../assets/ahbeng.png";
 import xiaoming from "../../assets/xiaoming.png";
 import phone from "../../assets/ahbeng-phone.jpg";
@@ -63,7 +64,7 @@ export const Chapter1 = () => {
             <div className="input-wrapper">
               <button 
                 className="btn btn-outline-primary btn-sm"
-                onClick={() => routeChange("Congratualations!")}
+                onClick={() => routeChange("Congratulations!")}
               >
                 Report
               </button>

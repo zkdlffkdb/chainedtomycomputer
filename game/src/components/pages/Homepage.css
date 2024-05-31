@@ -1,5 +1,24 @@
+.header {
+    margin: auto;
+    margin-top: 100px;
+    align-items: center;
+}
+
 .title {
     color: black;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.body {
+    margin: auto;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.start-game {
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
 }

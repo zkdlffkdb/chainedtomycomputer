@@ -11,6 +11,12 @@ export const Chapter3 = () => {
   }
 
   return (
-    <div>Chapter 3</div>
+    <div className="container">
+      <h1>Chapter 3</h1>
+      <div className="next-chapter">
+        <button onClick={routeChange} className="button">Epilogue</button>
+      </div>
+    </div>
+    
   )
 }

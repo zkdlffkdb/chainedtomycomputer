@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10%; 
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:auto;
+}
+
+.thought {
+    color: #fff;
+    font-size: 18px;
+    max-width: 28ch;
+    text-align: center;
+}
+
+.thought { 
+    --b: 3em; /* tail dimension */
+  
+    --p: 64%;  /* main position (0%:top 100%:bottom) */
+    --r: 1.2em; /* the radius */
+  
+    padding: 1em;
+    border-radius: var(--r)/min(var(--r),var(--p) - var(--b)/4) var(--r) var(--r) min(var(--r),100% - var(--p) - var(--b)/4);
+    background: #cf9d38; /* the main color */
+    position: relative;
+}
+
+.thought:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: clamp(var(--b)/-2,var(--p) - 3*var(--b)/4,100% - var(--b));
+    width: var(--b);
+    aspect-ratio: 1;
+    background: inherit;
+    --g:#000 calc(100% - 1px),#0000;
+    -webkit-mask: 
+      radial-gradient(circle closest-side at 12% 12%,var(--g)),
+      radial-gradient(20% 20% at 45% 52%,var(--g)),
+      radial-gradient(25% 25% at 100% 75%,var(--g));
+}
+
+.learning-points {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 800px;
+    border-radius: 7px;
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.home {
+    margin: auto;
+}

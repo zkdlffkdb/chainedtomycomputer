@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import "./Chapter1EducationalPage.css";
+import "./button.css"
 
 export const Chapter1EducationalPage = () => {
   let navigate = useNavigate();
@@ -35,12 +36,15 @@ export const Chapter1EducationalPage = () => {
             are classic hallmarks of love scams. Never send money to someone you just met online.
         </li>
       </ol>
-      <p className="final-word">
-        If caught in a love scam, sever all contact with the scammer, inform your banks if any 
-        transactions have been made, and lastly file a police report. 
-      </p>
-      <div className="move-on">
-        <button onClick={routeChange} className="btn btn-info">Chapter 2</button>
+      <div className="final-word">
+        <p>
+          If caught in a love scam, sever all contact with the scammer, inform your banks if any 
+          transactions have been made, and lastly file a police report. 
+        </p>
+      </div>
+      
+      <div className="next-chapter">
+        <button onClick={routeChange} className="button">Chapter 2</button>
       </div>
     </div>
   );

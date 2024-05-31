@@ -11,14 +11,36 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p {
+    margin: auto;
+    text-align: center;
+}
+
+ol {
+    margin: 20px 10px;
+}
+
 li {
     text-align: left; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .final-word {
-    text-align: left; 
-    margin-top: 10%;
-    margin-left: 1%; 
+    text-align: center; 
+    margin: auto;
+    padding: 5px;
+    background-color: #cc333f;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.next-chapter {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.story {
+    margin: auto;
 }
