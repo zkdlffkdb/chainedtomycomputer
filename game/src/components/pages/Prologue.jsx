@@ -10,6 +10,11 @@ export const Prologue = () => {
   }
 
   return (
-    <div>Prologue</div>
+    <div>
+      Prologue
+      <div className="start-game">
+        <button onClick={routeChange}>Chapter 1</button>
+      </div>
+    </div>
   )
 }

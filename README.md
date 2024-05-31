@@ -43,3 +43,9 @@ XM sees the link
 Epilogue: XM reflects on his experiences helping others, emphasising the importance of being vigilant for scams
 - Realises he has a passion for identifying and stopping scams, and applies for a job at ISD where he can make a difference :D
 - Summary of all the scams covered in the story: what to take note of and how to identify the scams.
+
+Attribution: 
+- Xiao Ming Image: "https://www.flaticon.com/free-icons/teen" title="teen icons" Teen icons created by smashingstocks - Flaticon
+- Ah Beng Image: "https://www.flaticon.com/free-icons/cool" title="cool icons" Cool icons created by justicon - Flaticon
+- Phone Photo: Photo By: "https://unsplash.com/@greyxwight?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" Source: "https://unsplash.com/photos/black-android-smartphone-on-white-textile-ZOXwrpmYWrA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+

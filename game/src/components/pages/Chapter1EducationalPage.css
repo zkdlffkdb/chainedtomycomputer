@@ -1,0 +1,24 @@
+h1 {
+    text-align: center; 
+    margin-top: 5%; 
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+h2 {
+    text-align: center; 
+    margin: 5% 20%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    text-align: left; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.final-word {
+    text-align: left; 
+    margin-top: 10%;
+    margin-left: 1%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
