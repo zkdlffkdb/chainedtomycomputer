@@ -9,7 +9,7 @@ export const Chapter2Educationalpage = () => {
     const { message } = location.state || {};
 
     const routeChange = () => {
-        let path = '/chapter_3';
+        let path = '/epilogue';
         navigate(path);
     };
 
@@ -74,7 +74,7 @@ export const Chapter2Educationalpage = () => {
             </p>
         </div>
         <div className="next-chapter">
-            <button onClick={routeChange} className='button'>Chapter 3</button>
+            <button onClick={routeChange} className='button'>Epilogue</button>
         </div>
     </div>
   )
