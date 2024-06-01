@@ -14,9 +14,46 @@ export const Chapter1EducationalPage = () => {
     navigate(path);
   };
 
+  const addStory = ({ message }) => {
+    if (message === "Congratulations!") {
+        return (
+            <>
+                <p>
+                    <strong>2 month later</strong>, 
+                    Ah Beng decided to go online to research more on love scams and realised
+                    his online girlfriend was indeed very suspicious. A while later, he saw a
+                    news article about how love scams exploits people's feeling of love. 
+                </p>
+                <br />
+                <p>
+                    Ah Beng is very thankful for your advice.
+                </p>
+            </>
+        ) 
+    } else {
+        return (
+            <>
+            <p>
+                The scammer took Ah Beng's money and immediately
+                ghosted him. <strong>Ah Beng loses
+                   his money.</strong>
+            </p>
+            <br />
+            <p> 
+                Ah Beng now owes his friends money as he borrowed heavily to 
+                give the money to the scammer. 
+            </p>
+            </>
+        )
+    }
+}
+
   return (
     <div className="container">
       <h1>{message}</h1>
+      <div className="story">
+            { addStory({message}) }
+      </div>
       <h2>Here are some things to look out for in Love Scams & Tips to keep you safe</h2>
       <ol>
         <li>
