@@ -30,10 +30,11 @@ export const Epilogue = () => {
           <li><strong>Job Scams:</strong> While you are job hunting, keep the key warning signs at the forefront of your mind.
             If you have concerns about the legitimacy of any job advertisement, you can check on the 
             business's official website or call the company directly to verify.</li>
-          <li><strong>Suspicious Links:</strong> ...</li>
         </ol>
       </div>
       <div className="home">
+        <p>Thanks for playing Scam Buster!</p>
+        <br />
         <button className="button" onClick={routeChange}>Back to home</button>
       </div>
     </div>
