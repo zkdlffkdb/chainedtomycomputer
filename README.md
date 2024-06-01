@@ -3,6 +3,11 @@ Solution for Lifehack 2024, Theme 1 Digital Threats, Subtheme 1:Tackling Financi
 
 Our solution is a game which brings the player through a story with the goal of educating and raising public awareness of scams
 
+## Installation
+1. Clone this repository
+2. Install dependencies in game folder by running `npm install` in terminal
+3. `npm run start`
+
 ## Storyline
 ### Main character
 Name: Xiao Ming  
@@ -48,4 +53,5 @@ Attribution:
 - Xiao Ming Image: "https://www.flaticon.com/free-icons/teen" title="teen icons" Teen icons created by smashingstocks - Flaticon
 - Ah Beng Image: "https://www.flaticon.com/free-icons/cool" title="cool icons" Cool icons created by justicon - Flaticon
 - Phone Photo: Photo By: "https://unsplash.com/@greyxwight?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" Source: "https://unsplash.com/photos/black-android-smartphone-on-white-textile-ZOXwrpmYWrA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+- Ahmad's Phone: generated using "https://fakedetail.com/fake-telegram-chat-generator"
 
