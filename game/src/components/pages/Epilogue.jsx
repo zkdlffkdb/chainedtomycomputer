@@ -25,8 +25,11 @@ export const Epilogue = () => {
       <h1>Summary</h1>
       <div className="learning-points">
         <ol>
-          <li><strong>Love Scams:</strong> ...</li>
-          <li><strong>Job Scams:</strong> ...</li>
+          <li><strong>Love Scams:</strong> If caught in a love scam, sever all contact with the scammer, inform your banks if any 
+          transactions have been made, and lastly file a police report.</li>
+          <li><strong>Job Scams:</strong> While you are job hunting, keep the key warning signs at the forefront of your mind.
+            If you have concerns about the legitimacy of any job advertisement, you can check on the 
+            business's official website or call the company directly to verify.</li>
           <li><strong>Suspicious Links:</strong> ...</li>
         </ol>
       </div>

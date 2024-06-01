@@ -13,11 +13,11 @@ export const Homepage = () => {
   return (
     <div className="container">
       <div className="header">
-        <div className="title">Welcome to game!</div>
+        <div className="title">Welcome to Scam Buster!</div>
       </div>
       <div className="body">
-        <p>text about the game</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam ipsum, modi voluptatibus, tempora corrupti eum et possimus reiciendis assumenda dolor id fuga ab aspernatur molestias aut quos, itaque accusamus asperiores sed voluptate quasi neque error maiores. Voluptate itaque doloremque expedita aut ad ipsam, delectus fugit fuga assumenda est ratione inventore!</p>
+        <p>Step into the shoes of Xiao Ming, a vigilant university student determined to protect his friends from the perils of online scams. </p>
+        <p>Navigate through real-life scenarios and make critical choices that will either save his friends or lead them into traps.</p>
       </div>
       <div className="start-game">
         <button onClick={routeChange} class="button">Start game</button>
